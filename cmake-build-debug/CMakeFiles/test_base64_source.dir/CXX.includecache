@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kaveh/projects/cppprojectects/test_base64_source/base64.h
+vector
+-
+string
+-
+
+/Users/kaveh/projects/cppprojectects/test_base64_source/main.cpp
+iostream
+-
+base64.h
+/Users/kaveh/projects/cppprojectects/test_base64_source/base64.h
+fstream
+-
+
